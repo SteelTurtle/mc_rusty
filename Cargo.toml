@@ -1,0 +1,26 @@
+[package]
+name = "mc_rusty"
+version = "0.1.0"
+authors = ["danikun <steelturtle@msn.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "3"
+derive_more = "0.99"
+dotenv = "0.15.0"
+env_logger = "0.8.2"
+futures = "0.3.8"
+rand = "0.7.3"
+serde = { version = "1.0.117", features = ["derive"] }
+serde_json = "1.0.59"
+time = "0.2.23"
+ureq = { version = "1.5.2", features = ["json"] }
+parking_lot = "0.11.1"
+
+[[bin]]
+name = "mc_rusty_server"
+path = "src/main.rs"
+
+[[bin]]
+name = "test_client"
+path = "src/client/test_client.rs"
