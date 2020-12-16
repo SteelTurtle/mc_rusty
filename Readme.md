@@ -3,6 +3,7 @@
 > STILL HEALTHIER THAN MC DONALDS
 
 [![Rust Version][rust-image]][rust-url]
+[![Actix Version][actix-image]][actix-url]
 
 McRusty simulates a multi-threading environment where several "waiters" are concurrently trying to create,
 read and delete orders for the tables of a virtual restaurant. Given its purely demonstrative purpose, the
@@ -123,6 +124,10 @@ So many I do not even know where to start :)
 
 [rust-image]: https://img.shields.io/badge/Rust-1.48-orange?style=flat-square
 
-[rust-url]: https://rust-lang.org/package/datadog-metrics
+[rust-url]: https://rust-lang.org
+
+[actix-image]: https://img.shields.io/badge/Actix-3-blue?style=flat-square
+
+[actix-url]: https://actix.rs
 
 [rust-lang-distro]: https://www.rust-lang.org/learn/get-started
